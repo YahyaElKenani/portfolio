@@ -1,0 +1,42 @@
+.contact-page { 
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 4rem;
+}
+
+.contact-page-title { 
+    font-size: 6rem;
+}
+
+.contact-page-title::before,
+.contact-page-title::after { 
+    content: '';
+    display: inline-block;
+    width: 100px;
+    margin: 0 25px;
+    height: 1px;
+    vertical-align: middle;
+}
+
+.contact-buttons { 
+    gap: 3rem;
+}
+
+.contact-button { 
+    height: 100px !important;
+    width: 100px !important;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid #c9c6c3;
+    padding: 20px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.contact-button:hover { 
+    background-color: #006a67;
+}
+
+.btn-icon { 
+    font-size: 3rem !important;
+}

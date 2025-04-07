@@ -1,0 +1,37 @@
+.projects-page { 
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin: 10rem 0;
+}
+
+.projects-page-title { 
+    font-size: 6rem;    
+}
+
+.projects-page-title::before,
+.projects-page-title::after { 
+    content: '';
+    display: inline-block;
+    width: 100px;
+    margin: 0 25px;
+    height: 1px;
+    vertical-align: middle;
+}
+
+.projects-tabs { 
+    display: flex;
+    justify-content: center;
+}
+
+.projects-tabs-title { 
+    font-size: 2rem;
+    margin-top: 2rem;
+    position: relative;
+    width: 25%;
+    padding: 15px;
+}
+
+.active {   
+    border-bottom: 1px solid #006a67;
+}

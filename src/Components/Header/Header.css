@@ -1,0 +1,84 @@
+.header-container { 
+    width: 100dvw;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.lightMode-header { 
+    box-shadow: 0 0px 30px 5px #e8e6e1 ;
+}
+
+.darkMode-header { 
+    box-shadow: 0 0px 30px 5px #041525;
+}
+
+.header-placeholder { 
+    width: 100dvw;
+    height: 100px;
+}
+
+.header-content { 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabs { 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tab { 
+    font-size: 1.5rem;
+    text-wrap: none;
+}
+
+.preferences { 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.theme-changer { 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.preferences-btn { 
+    font-size: 2rem !important;
+}
+
+.preferences-btn-dark { 
+    color: #c9c6c3 !important
+}
+
+.preferences-btn-light { 
+    color: #070f2b !important;
+}
+
+.ar-page { 
+    direction: rtl;
+    text-align: right;
+}
+
+@media (max-width: 1420px) { 
+    .tab { 
+        font-size: 1.2rem
+    }
+}
+
+@media (max-width: 1080px) { 
+    .tab { 
+        font-size: 1rem
+    }
+}
+
+@media (max-width: 1044px) { 
+    .ar-header { 
+        font-size: .7rem
+    }
+}
