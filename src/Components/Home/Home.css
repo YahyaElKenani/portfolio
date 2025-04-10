@@ -1,5 +1,5 @@
 .home { 
-    height: calc(100dvh - 3rem - 100px);
+    max-height: calc(100dvh - 3rem - 100px);
 }
 
 .home-content { 
@@ -82,12 +82,13 @@
 @media (max-width: 500px) { 
     .portfolio-pic { 
         height: calc(100dvh - 55rem - 100px);
+        margin-left: 1rem;
     }
     .home-title { 
-        font-size: 2rem !important;
+        font-size: 1.8rem !important;
     }
     .home-subtitle { 
-        font-size: .9rem !important;
+        font-size: .7rem !important;
     }
     .home { 
         margin-right: 3rem !important;
@@ -124,7 +125,7 @@
 
 .home-title { 
     font-size: 6rem;
-    animation: glitch 4s steps(100) infinite;
+    animation: glitch 1s steps(100) 1;
 }
 
 .home-subtitle { 

@@ -35,7 +35,7 @@ export default function About() {
                     animate={{ y: 0, opacity: 1 }}
                     exit={{ y: 50, opacity: 0 }}
                     transition={{ duration: 0.5 }}
-                    className={`${language === 'en' ? 'en-lang-bold' : 'ar-lang-bold'} ${
+                    className={`${language === 'en' ? 'en-lang-bold' : 'ar-lang-bold about-ar'} ${
                         theme === 'dark' ? 'darkMode-text darkMode-subtext' : 'lightMode-text lightMode-subtext'
                     } text-center about-title`}
                 >

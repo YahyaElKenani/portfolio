@@ -1,6 +1,7 @@
 .card { 
     width: 50rem;
     margin-top: 5rem;
+    max-height: 60rem;
     background-color: #006a67;
     border: none;
 }
@@ -39,5 +40,32 @@
     content: '';
     width: 0;
     border-left: 5px solid #0a2a4a;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
+}
+
+@media (max-width: 650px) { 
+    .technologies-used { 
+        font-size: .5rem !important
+    }
+    .card-text { 
+        font-size: 1rem !important
+    }
+    .card-title { 
+        font-size: 1.5rem !important;
+    }
+}
+
+@media (max-width: 456px) { 
+    .technologies-used { 
+        font-size: .3rem !important
+    }
+    .technology::before {
+        margin-right: 1.2rem !important;
+    }
+    .card-text { 
+        font-size: .7rem !important
+    }
+    .card-title { 
+        font-size: 1rem !important;
+    }
 }

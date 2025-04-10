@@ -90,3 +90,38 @@ a {
 #Projects { 
   scroll-margin-top: 5dvh
 }
+
+@media (max-width: 1080px) { 
+  .about-title,
+  .projects-page-title,
+  .contact-page-title { 
+    font-size: 3rem !important
+  }
+}
+
+@media (max-width: 750px) { 
+  .about-title,
+  .projects-page-title,
+  .contact-page-title { 
+    font-size: 2rem !important
+  }
+  .section-details {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (max-width: 450px) { 
+  .about-title,
+  .projects-page-title,
+  .contact-page-title { 
+    font-size: 1.5rem !important
+  }
+  .about-title::after, 
+  .about-title::before,
+  .projects-page-title::after,
+  .projects-page-title::before,
+  .contact-page-title::after,
+  .contact-page-title::before { 
+    width: 50px !important;
+  }
+}

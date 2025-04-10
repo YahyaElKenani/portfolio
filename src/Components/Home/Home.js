@@ -7,7 +7,7 @@ export default function Home() {
     const theme = useSelector((state) => state.preferences.currentTheme)
     return (
         <div className="container-fluid home mt-5">
-                <div className='row home-content d-flex justify-content-evenly' id='Home'>
+                <div className='row home-content me-3 d-flex justify-content-evenly' id='Home'>
                     <div className='col-3 col-md-6 text-home-content'>
                     <AnimatePresence mode='wait'>
                         <motion.span 
@@ -34,7 +34,7 @@ export default function Home() {
                             exit={{y: 50, opacity: 0}}
                             transition={{duration: 0.5}}
                             className={`${language === 'en' ? 'en-lang-semiBold' : 'ar-lang-semiBold'} 
-                                            ${theme === 'dark' ? 'darkMode-text' : 'lightMode-text' } home-subtitle`}>
+                                            ${theme === 'dark' ? 'darkMode-text' : 'lightMode-text' } home-subtitle text-center`}>
                                 {
                                     language === 'en' ? 
                                     'Front-end Developer'

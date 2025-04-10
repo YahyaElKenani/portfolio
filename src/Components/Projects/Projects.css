@@ -1,12 +1,11 @@
 .projects-page { 
-    min-height: 1000px;
     display: flex;
     flex-direction: column;
-    margin: 10rem 0;
+    margin: 7rem 0;
 }
 
 .projects-page-title { 
-    font-size: 6rem;    
+    font-size: 5rem;    
 }
 
 .projects-page-title::before,
@@ -34,4 +33,16 @@
 
 .active {   
     border-bottom: 1px solid #006a67;
+}
+
+@media (max-width: 870px) { 
+    .projects-tabs-title { 
+        font-size: 1rem !important;
+    }
+}
+
+@media (max-width: 560px) { 
+    .projects-tabs-title { 
+        font-size: .8rem !important;
+    }
 }

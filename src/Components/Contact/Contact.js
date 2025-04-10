@@ -7,7 +7,7 @@ import { Tooltip } from '@mui/material';
 export default function Contact() { 
     const language = useSelector((state) => state.preferences.currentLang);
     const theme = useSelector((state) => state.preferences.currentTheme);
-    const title = language === 'en' ? 'Contact Me' : 'تواصل معي '
+    const title = language === 'en' ? 'Contact' : 'التواصل'
     const phoneNumber = '+201113612859'
     const emailAddress = 'yahyaelkenani283@gmail.com' 
     const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${emailAddress}`;
