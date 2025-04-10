@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.901fd715.css",
-    "main.js": "/portfolio/static/js/main.de8fb67f.js",
+    "main.css": "/portfolio/static/css/main.25992bbd.css",
+    "main.js": "/portfolio/static/js/main.5622d9c4.js",
     "static/media/anime-preview.png": "/portfolio/static/media/anime-preview.0a123db6c38e1b0d628a.png",
     "static/media/todolist-preview.png": "/portfolio/static/media/todolist-preview.520b80809f4e011f80f5.png",
     "static/media/furni-preview.png": "/portfolio/static/media/furni-preview.cba0fde0ca987d5ce019.png",
+    "static/media/CV.pdf": "/portfolio/static/media/CV.ee7759ffafd79320ec1c.pdf",
     "static/media/html-logo.png": "/portfolio/static/media/html-logo.65e5ad3a95d8f23bc669.png",
     "static/media/personal pic.jpg": "/portfolio/static/media/personal pic.d4ad77e7e40fc0f54b21.jpg",
     "static/media/bootstrap-logo.png": "/portfolio/static/media/bootstrap-logo.75df267824102e791a7b.png",
@@ -16,11 +17,11 @@
     "static/media/tictactoe-preview.png": "/portfolio/static/media/tictactoe-preview.7a831734736fcfff47eb.png",
     "static/media/javascript-logo.png": "/portfolio/static/media/javascript-logo.266bd9fb2663dcc057b4.png",
     "index.html": "/portfolio/index.html",
-    "main.901fd715.css.map": "/portfolio/static/css/main.901fd715.css.map",
-    "main.de8fb67f.js.map": "/portfolio/static/js/main.de8fb67f.js.map"
+    "main.25992bbd.css.map": "/portfolio/static/css/main.25992bbd.css.map",
+    "main.5622d9c4.js.map": "/portfolio/static/js/main.5622d9c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.901fd715.css",
-    "static/js/main.de8fb67f.js"
+    "static/css/main.25992bbd.css",
+    "static/js/main.5622d9c4.js"
   ]
 }
