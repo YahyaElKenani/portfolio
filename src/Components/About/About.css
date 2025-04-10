@@ -89,22 +89,36 @@
 @media (max-width: 1460px) { 
     .section-title { 
         font-size: 1.5rem !important;
+        margin-top: 5rem;
+    }
+    .section-details { 
+        font-size: 1.3rem !important;
     }
 }
 
 @media (max-width: 1080px) { 
     .section-title { 
         font-size: 1.2rem !important;
+        margin-top: 3rem;
+    }
+    .section-details { 
+        font-size: 1rem !important;
+        margin-top: 1.5rem;
     }
 }
 
 @media (max-width: 750px) { 
     .section-title { 
         font-size: .8rem !important;
+        margin-top: 1.5rem;
     }
     .about-ar::after,
     .about-ar::before { 
         width: 30px !important;
+    }
+    .section-details { 
+        font-size: .7rem !important;
+        margin-top: 1.2rem;
     }
 }
 
@@ -112,6 +126,11 @@
     .logo-wrapper { 
         height: 150px;
         width: 150px;
+        margin-top: 1rem;
+    }
+    .section-details { 
+        margin-top: 1rem;
+        font-size: .5rem !important;
     }
     .skill-name { 
         font-size: 1.5rem;

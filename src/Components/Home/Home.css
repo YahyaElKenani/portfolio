@@ -8,11 +8,80 @@
     align-items: center;
 }
 
+.home-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-home-content { 
+    display: flex;
+    flex-direction: column;
+}
+
+.social-button { 
+    height: 100px !important;
+    width: 100px !important;
+    background-color: transparent;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.socials { 
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+}
+
+.social-btn-icon { 
+    font-size: 3rem !important;
+}
+
+.cv { 
+    min-width: 25%;
+    border-radius: 20px;
+    min-height: 80px;
+    background-color: #006a67;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.cv:hover { 
+    background-color: #025a57d5;
+}
+
+.cv-text { 
+    font-size: 1.5rem !important;
+    text-decoration: none;
+}
+
 .portfolio-pic { 
     margin-top: 3rem;
     height: calc(100dvh - 12rem - 100px);
     min-height: 200px;
     border-radius: 20px;
+}
+
+
+@media (max-width: 1610px) { 
+    .cv { 
+        min-height: 60px;
+    }
+    .cv-text { 
+        font-size: 1rem !important;
+    }
 }
 
 @media (max-width: 1540px) { 
@@ -28,6 +97,9 @@
 }
 
 @media (max-width: 1180px) { 
+    .cv-text { 
+        font-size: .8rem !important;
+    }
     .portfolio-pic { 
         height: calc(100dvh - 35rem - 100px);
     }
@@ -46,6 +118,12 @@
     }
 }
 
+@media (max-width: 910px) { 
+    .social-btn-icon { 
+        font-size: 2rem !important
+    }
+}
+
 @media (max-width: 880px) { 
     .portfolio-pic { 
         height: calc(100dvh - 45rem - 100px);
@@ -56,14 +134,32 @@
     .home-subtitle { 
         font-size: 1rem !important;
     }
+    .social-btn-icon { 
+        font-size: 1.5rem !important
+    }
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 886px) { 
+    .social-button { 
+        width: 50px !important;
+    }
+}
+
+@media (max-width: 770px) { 
     .portfolio-pic { 
         height: calc(100dvh - 50rem - 100px);
     }
     .home-title { 
         font-size: 3rem !important;
+    }
+    .social-button { 
+        width: 30px !important;
+    }
+}
+
+@media (max-width: 664px) { 
+    .social-btn-icon { 
+        font-size: 1rem !important
     }
 }
 
@@ -92,6 +188,12 @@
     }
     .home { 
         margin-right: 3rem !important;
+    }
+}
+
+@media (max-width: 480px) { 
+    .home-content { 
+        margin-left: 2rem;
     }
 }
 
@@ -125,7 +227,7 @@
 
 .home-title { 
     font-size: 6rem;
-    animation: glitch 1s steps(100) 1;
+    animation: glitch 3s steps(100) 1;
 }
 
 .home-subtitle { 
