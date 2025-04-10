@@ -191,12 +191,6 @@
     }
 }
 
-@media (max-width: 480px) { 
-    .home-content { 
-        margin-left: 2rem;
-    }
-}
-
 @keyframes darkModePulse {
     0% { box-shadow: 0 0 0 0px #025fbc; }
     100% { box-shadow: 0 0 0 30px rgb(7, 15, 43, 0); }

@@ -66,34 +66,26 @@ export default function Home() {
                         </div>
                         <div className='home-links'>
                             <div className='socials'>
-                                        <Tooltip> 
                                             <div className={`${theme === 'dark' ? 'darkMode-text' : 'lightMode-text'} social-button`}
                                             onClick={() => {openFacebook()}}
                                             >
                                                 <FacebookIcon className='social-btn-icon' />
                                             </div>
-                                        </Tooltip>
-                                        <Tooltip> 
                                             <div className={`${theme === 'dark' ? 'darkMode-text' : 'lightMode-text'} social-button`}
                                             onClick={() => {openInstagram()}}
                                             >
                                                 <InstagramIcon className='social-btn-icon' />
                                             </div>
-                                        </Tooltip>
-                                        <Tooltip> 
                                             <div className={`${theme === 'dark' ? 'darkMode-text' : 'lightMode-text'} social-button`}
                                             onClick={() => {openLinkedIn()}}
                                             >
                                                 <LinkedInIcon className='social-btn-icon' />
                                             </div>
-                                        </Tooltip>
-                                        <Tooltip> 
                                             <div className={`${theme === 'dark' ? 'darkMode-text' : 'lightMode-text'} social-button`}
                                             onClick={() => {openGithub()}}
                                             >
                                                 <GitHubIcon className='social-btn-icon' />
                                             </div>
-                                        </Tooltip>
                             </div>
                                         <AnimatePresence mode='wait'> 
                                             <div
